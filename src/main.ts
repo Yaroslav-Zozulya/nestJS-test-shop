@@ -10,7 +10,7 @@ const start = async () => {
     .setTitle('NESTJS-TEST-SHOP')
     .setDescription('Documentation REST API')
     .setVersion('1.0.0')
-    .addTag('Yaroslav')
+    .addTag('API DOCS')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
